@@ -7,7 +7,10 @@
 ```
 
 - Pseudocode: imagine we want to build an index page with flats
-TODO
+1. Create the rails app `rails new airbnb-static`
+2. Routes
+3. Controller + action
+4. View
 
 - TDD - system tests
 TODO

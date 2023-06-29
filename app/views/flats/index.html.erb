@@ -1,0 +1,17 @@
+<div class="container">
+  <h1 class="text-center my-3" >Your lovely flats</h1>
+  <div class="row g-3">
+    <% @flats.each do |flat| %>
+      <div class="col-4">
+        <div class="card" class="my-3">
+          <img src="<%= flat["imageUrl"] %>" class="card-img-top" alt="flat">
+          <div class="card-body">
+            <h5 class="card-title"><%= flat["name"] %></h5>
+            <p class="card-text">$<%= flat["price"] %></p>
+            <a href="#" class="btn btn-primary">Check it out</a>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
